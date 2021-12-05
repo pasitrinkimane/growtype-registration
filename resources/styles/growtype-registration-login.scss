@@ -1,0 +1,78 @@
+@import "common/mixins";
+@import "common/variables";
+
+@import "login/style-1";
+
+.main-content-wrapper {
+  margin-top: 0 !important;
+}
+
+.form-wrapper {
+  .b-actions {
+    margin-top: 20px;
+  }
+
+  .login-username, .login-password {
+    margin-bottom: 15px;
+  }
+
+  .login-remember {
+    margin-top: 20px;
+
+    label {
+      display: flex;
+      align-items: center;
+
+      input {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.login-container {
+  margin-top: 17vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  @include bp-phone-xl() {
+    margin-top: 0;
+  }
+
+  .login-container-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @include bp-phone-xl() {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+.loginform-wrapper {
+  max-width: 350px;
+}
+
+.login {
+  #login {
+    padding-top: 50px;
+  }
+
+  .loginform-wrapper {
+    max-width: 400px;
+  }
+
+  .login-remember, .login-password {
+    margin-top: 10px;
+
+    label {
+      display: flex;
+      align-items: center;
+
+      input {
+        margin-right: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+@import "common/mixins";
+@import "common/variables";
+
+#backtoblog {
+  display: none;
+}
+
+.alert {
+  max-width: 430px;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.form-wrapper {
+  margin: auto;
+}
+
+.login form, #signup-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto 24px;
+  width: 100%;
+  padding: 26px 24px 34px;
+  background: rgb(255, 255, 255);
+  border-radius: 3px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 10px;
+  box-sizing: border-box;
+  color: rgb(94, 108, 132);
+  border: none;
+  @include bp-phone-xl() {
+    padding: 20px 20px;
+  }
+}
+
+.logo-wrapper {
+  max-width: 240px;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  @include bp-phone-xl(){
+    margin-bottom: 20px;
+  }
+}
+
+.form-wrapper .b-actions, .login #nav {
+  text-align: center;
+
+  a {
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    color: #0d6efd;
+  }
+
+  .e-dot {
+    font-size: 16px;
+  }
+}
+
+form {
+  input[type="submit"], button[type="submit"] {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    min-height: initial !important;
+    line-height: initial !important;
+    text-transform: uppercase !important;
+    font-size: 14px !important;
+    background: #5561e2 !important;
+    border-radius: 5px !important;
+  }
+
+  &[name="lostpasswordform"] {
+    padding: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
+    margin-top: 5px !important;
+    display: inline-block;
+  }
+}
+
+.lostpassword {
+  #lostpassword {
+    max-width: 430px;
+    padding-top: 50px;
+  }
+}
+
+.signup {
+  #signup-container {
+    max-width: 710px;
+  }
+
+  .entry-content {
+    padding-top: 30px;
+  }
+
+  .form-wrapper {
+    margin-top: 30px;
+  }
+
+  .b-form {
+    .b-input {
+      width: 50%;
+    }
+  }
+}

@@ -1,0 +1,278 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Growtype - Registration\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-16 10:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: growtype-registration"
+
+#: ../../../../../packages/growtype-registration/includes/methods/login.php:84
+msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:45
+msgid "Address"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:163
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:31
+msgid "Birthday"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/login.php:115
+msgid "Check your e-mail for login information."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/password.php:56
+msgid "Check your email"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:170
+msgid "Child first and last name"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:164
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:52
+msgid "City"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:166
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:66
+msgid "Country"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:156
+msgid "Email address"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/password.php:30
+msgid "Email address is missing."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:179
+msgid "Enter your"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:13
+msgid "Extra profile information"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:161
+msgid "First and Last name"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:159
+msgid "First name"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/password.php:117
+msgid "Get New Password"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:168
+msgid "Grade"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:169
+msgid "Grade group"
+msgstr ""
+
+#. Author of the plugin
+msgid "Growtype"
+msgstr ""
+
+#. Name of the plugin
+#: ../../../../../packages/growtype-registration/admin/class-growtype-registration-admin.php:114
+#: ../../../../../packages/growtype-registration/admin/class-growtype-registration-admin.php:115
+msgid "Growtype - Registration"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://newcoolstudio.com/"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:160
+msgid "Last name"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/login.php:44
+#: ../../../../../packages/growtype-registration/includes/methods/password.php:123
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:258
+msgid "Log In"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/login.php:149
+msgid "Lost your password?"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:297
+msgid "Missing required values"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:165
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:17
+msgid "Occupation"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/login.php:42
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:157
+msgid "Password"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:304
+msgid "Passwords do not match"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:162
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:38
+msgid "Phone"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:426
+msgid "Please enter password."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:48
+msgid "Please enter your address."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:34
+msgid "Please enter your birth date."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:55
+msgid "Please enter your city."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:69
+msgid "Please enter your country."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:20
+msgid "Please enter your occupation."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:41
+msgid "Please enter your phone."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:62
+msgid "Please enter your postal code."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:27
+msgid "Please enter your school."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/password.php:97
+msgid ""
+"Please enter your username or email address. You will receive an email "
+"message with instructions on how to reset your password."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:68
+msgid "Please fill all required fields."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/password.php:15
+#: ../../../../../packages/growtype-registration/includes/methods/password.php:25
+msgid "Please provide a valid username or email address."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:59
+msgid "Postal Code"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:330
+msgid "Profile already registered."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/login.php:147
+#: ../../../../../packages/growtype-registration/includes/methods/password.php:125
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:254
+msgid "Register"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:106
+msgid "Registration"
+msgstr ""
+
+#. Description of the plugin
+msgid "Registration functionality for \"Growtype\" theme"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:358
+msgid "Registration successful."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/login.php:43
+msgid "Remember Me"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:158
+msgid "Repeat Password"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:167
+#: ../../../../../packages/growtype-registration/includes/admin/profile.php:24
+msgid "School"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/password.php:61
+msgid "Sorry, something went wrong."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:171
+msgid "User name"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/login.php:41
+msgid "Username"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/password.php:105
+msgid "Username or Email Address"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/login.php:111
+msgid "Wrong login details. Please try again."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/login.php:113
+msgid "You are now logged out."
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/password.php:42
+msgid "Your new password"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/password.php:45
+msgid "Your new password is:"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:419
+msgid "Your Password Must Contain At Least 1 Capital Letter!"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:422
+msgid "Your Password Must Contain At Least 1 Lowercase Letter!"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:416
+msgid "Your Password Must Contain At Least 1 Number!"
+msgstr ""
+
+#: ../../../../../packages/growtype-registration/includes/methods/signup.php:413
+msgid "Your Password Must Contain At Least 8 Characters!"
+msgstr ""

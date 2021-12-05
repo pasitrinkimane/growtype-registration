@@ -1,0 +1,70 @@
+.login-template-style-1 {
+  background: linear-gradient(180deg, #2B2B2B 0%, #2A2A2A 100%);
+
+  body, .main-content-wrapper {
+    background: linear-gradient(180deg, #2B2B2B 0%, #2A2A2A 100%);
+  }
+
+  .login-container-inner {
+    .login {
+      background: white;
+      padding: 50px;
+      padding-top: 30px;
+      @include bp-phone-xl() {
+        padding: 25px;
+      }
+
+      .alert {
+        max-width: 310px;
+        @include bp-phone-xl() {
+          max-width: 100%;
+        }
+      }
+
+      .logo-wrapper {
+        max-width: 140px;
+      }
+    }
+
+    form {
+      background: none;
+      box-shadow: none;
+      padding: 0;
+      max-width: 310px;
+      @include bp-phone-xl() {
+        max-width: 100%;
+      }
+    }
+
+    h3 {
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      background: rgba(85, 97, 226, 0.8);
+      display: flex;
+      color: white;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px;
+      @include bp-phone-xl() {
+        margin-top: 15px;
+      }
+
+      p {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+
+      .dashicons {
+        font-size: 32px;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: -5px;
+        color: white;
+        margin-right: 5px;
+      }
+    }
+  }
+}

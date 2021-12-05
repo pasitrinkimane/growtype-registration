@@ -1,0 +1,20 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.profile-php .user-tumblr-wrap{
+    display: none;
+}
+
+.profile-php .user-wikipedia-wrap{
+    display: none;
+}
+
+.profile-php .user-soundcloud-wrap{
+    display: none;
+}
+
+.profile-php .user-myspace-wrap{
+    display: none;
+}
