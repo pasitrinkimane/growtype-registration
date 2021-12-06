@@ -5,7 +5,7 @@
  */
 function growtype_registration_login_page()
 {
-    return get_post(get_option('growtype_registration_login_page'));
+    return get_option('growtype_registration_login_page') ? get_post(get_option('growtype_registration_login_page')) : false;
 }
 
 /**
@@ -13,7 +13,7 @@ function growtype_registration_login_page()
  */
 function growtype_registration_login_page_is_active()
 {
-    return !empty(growtype_registration_login_page()) &&
+    return growtype_registration_login_page() && !empty(growtype_registration_login_page()) &&
         is_page(growtype_registration_login_page()->post_name);
 }
 
@@ -22,7 +22,7 @@ function growtype_registration_login_page_is_active()
  */
 function growtype_registration_signup_page()
 {
-    return get_post(get_option('growtype_registration_signup_page'));
+    return get_option('growtype_registration_signup_page') ? get_post(get_option('growtype_registration_signup_page')) : false;
 }
 
 /**

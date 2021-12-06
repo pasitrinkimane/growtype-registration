@@ -1,6 +1,6 @@
 {
     "name": "newcool/growtype-registration",
-    "description": "growtype-registration - 1.0.0",
+    "description": "growtype-registration - 1.0.1",
     "type": "wordpress-plugin",
     "require": {
         "php": "^7.2"
